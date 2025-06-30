@@ -1,0 +1,300 @@
+  /* Стиль для желтой кнопочки */
+.dot1 {
+        position:absolute;
+        top: 0px;
+        left: -35px;
+        z-index: 1;
+        border: none;
+        background:none;
+}
+  .dot2 {
+        position:absolute;
+        top: 70px;
+        left: -20px;
+        z-index: 1;
+        border: none;
+        background:none;
+}
+.dot3 {
+  position:absolute;
+  top: 73px;
+  left: 188px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot4 {
+  position:absolute;
+  top: -15px;
+  left: -10px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot5 {
+  position:absolute;
+  top: 43px;
+  left: 218px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot6 {
+  position:absolute;
+  top: 74px;
+  left: 196px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot7 {
+  position:absolute;
+  top: -15px;
+  left: 38px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot8 {
+  position:absolute;
+  top: -16px;
+  left: 248px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.dot9 {
+  position:absolute;
+  top: -14px;
+  left: 16px;
+  z-index: 1;
+  border: none;
+  background:none;
+}
+.table1 {
+  position:absolute;
+  top: 46px;
+  left: 634px;
+  z-index: 1;
+}
+.table2 {
+ position:absolute;
+  top: 0px;
+  left: 504px;
+  z-index: 1;
+}
+.table3 {
+  position:absolute;
+  top: 150px;
+  left: -750px;
+  z-index: 1;
+}
+.table4 {
+  position:absolute;
+  top: 210px;
+  left: -135px;
+  z-index: 1;
+}
+.table5 {
+  position:absolute;
+  top: 40px;
+  left: 430px;
+  z-index: 1;
+}
+.table6 {
+  position:absolute;
+  top: -40px;
+  left: 480px;
+  z-index: 1;
+}
+.table7 {
+  position:absolute;
+  top: 300px;
+  left: -1120px;
+  z-index: 1;
+}
+.table8 {
+  position:absolute;
+  top: 138px;
+  left: 90px;
+  z-index: 1;
+}
+.table9 {
+  position:absolute;
+  top: -6px;
+  left: 590px;
+  z-index: 1;
+}
+.knopka1 {
+  position: absolute;
+  top: -820px;
+  left: -660px;
+  z-index: 1;  
+}
+.knopka2 {
+  position:absolute;
+  top: -820px;
+  left: -400px;
+  z-index: 1;  
+}
+.knopka3 {
+  position:absolute;
+  top: -820px;
+  left: -277px;
+  z-index: 1;  
+}
+.knopka11 {
+  position: absolute;
+  top: 18px;
+  left: 63px;
+  z-index: 1;  
+}
+.knopka22 {
+  position:absolute;
+  top: 18px;
+  left: 323px;
+  z-index: 1;  
+}
+.knopka33 {
+  position:absolute;
+  top: 18px;
+  left: 446px;
+  z-index: 1;  
+}
+.knopka111 {
+  position: absolute;
+  top: 18px;
+  left: 63px;
+  z-index: 1;  
+}
+.knopka222 {
+  position:absolute;
+  top: 18px;
+  left: 323px;
+  z-index: 1;  
+}
+.knopka333 {
+  position:absolute;
+  top: 18px;
+  left: 446px;
+  z-index: 1;  
+}
+.tgk {
+  position:absolute;
+  top: 884px;
+  left: 607px;
+  z-index: 1;
+  animation: anim1 6s linear infinite;  
+}
+.behance {
+  position:absolute;
+  top: 884px;
+  left: 690px;
+  z-index: 1;
+  animation: anim2 6s linear infinite;  
+}
+.notion {
+  position:absolute;
+  top: 884px;
+  left: 773px;
+  z-index: 1;
+  animation: anim3 6s linear infinite;  
+}
+@keyframes anim1 {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
+}
+@keyframes anim2 {
+  from {transform:rotate(120deg);}
+  to {transform:rotate(480deg);}
+}
+@keyframes anim3 {
+  from {transform:rotate(240deg);}
+  to {transform:rotate(600deg);}
+}
+.talon1 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 400px;
+}
+.talon1:active {
+  animation: fly1 2s linear none;
+}
+@keyframes fly1 {
+  from {transform:translateY(0px);}
+  to {transform:translateY(250px);}
+}
+.talon2 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 490px;
+}
+.talon2:active {
+  animation: fly1 2s linear none;
+}
+
+.talon3 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 581px;
+}
+.talon3:active {
+  animation: fly1 2s linear none;
+}
+
+.talon4 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 673px;
+}
+.talon4:active {
+  animation: fly1 2s linear none;
+}
+
+.talon5 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 765px;
+}
+.talon5:active {
+  animation: fly1 2s linear none;
+}
+
+.talon6 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 857px;
+}
+.talon6:active {
+  animation: fly1 2s linear none;
+}
+
+.talon7 {
+  position:absolute;
+  z-index: 1;
+  top: 600px;
+  left: 949px;
+}
+.talon7:active {
+  animation: fly1 2s linear none;
+}
+.priglos {
+  top:289px;
+  left: 69px;
+  z-index:1;
+  position:absolute;
+  border: none;
+  background: none;
+}
+.forma {
+  top:672px;
+  left: 1087px;
+  z-index:1;
+  position:absolute;
+}

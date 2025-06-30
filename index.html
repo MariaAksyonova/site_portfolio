@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+
+</head>
+
+<body>
+    <img src="img/Desktop - 19.png" alt="">
+    
+    <div class="knopka11">
+        <a href="second.html">
+        <img src="img/проекты ч.svg">
+        </a>
+    </div>
+    <div class="knopka22">
+        <a href="index.html">
+        <img src="img/контакты ж.svg">
+        </a>
+    </div>
+    <div class="knopka33">
+        <a href="third.html">
+        <img src="img/обо мне ч.svg">
+        </a>
+    </div>
+    <div class="talon1">
+    <img src="img/талончик1.png" alt="">
+    </div>
+    <div class="talon2">
+    <img src="img/талончик2.png" alt="">
+    </div>
+    <div class="talon3">
+    <img src="img/талончик3.png" alt="">
+    </div>
+    <div class="talon4">
+    <img src="img/талончик4.png" alt="">
+    </div>
+    <div class="talon5">
+    <img src="img/талончик5.png" alt="">
+    </div>
+    <div class="talon6">
+    <img src="img/талончик6.png" alt="">
+    </div>
+    <div class="talon7">
+    <img src="img/талончик7.png" alt="">
+    </div>
+    <div class="forma">
+        <img id="11" style="display:none;" src="img/форма.svg">
+        <div>
+        <button type="button" class='priglos' onclick="myImg11()"><img id=test src="./img/приглос.svg" 
+            ></button>
+        <script>
+            function myImg11() {
+                let elem = document.getElementById('11');
+                let style = getComputedStyle(elem);
+                if (style.display === 'none') {
+                    document.getElementById('11').style.display='block';
+                } else if (style.display !== 'none') {
+                    document.getElementById('11').style.display='none';
+                }
+            }
+        </script>
+</body>
